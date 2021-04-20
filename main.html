@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
-    
+    <img src="../images/Ontario-logo.jpg" class="w3-image" alt="Ontario Logo" width="100" height="74">
     <!-- Right-sided navbar links. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
       <a href="#problem" class="w3-bar-item w3-button">Problem</a>
@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 
 <!-- Header -->
 <header>
+
 </header>
 
 <!-- Page content -->
@@ -39,18 +40,27 @@ h1, h2, h3, h4, h5, h6 {
   <h1 class="w3-center">Problem</h1><br>
   </div>
   <div class="w3-row w3-padding-bottom-64">
-    <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="../geom99webgolf/images/Ontario_CanadaMap.png" class="w3-image" alt="Ontario Map" width="300" height="254">
+    <div class="w3-col m6 w3-padding-large ">
+     <img src="../geom99webgolf/images/Ontario_CanadaMap.png" class="w3-image w3-padding-top-64" alt="Ontario Map" width="300" height="254">
      <h1 class="w3-large">Ontario, Canada</h1>
     </div>
 
     <div class="w3-col m6 w3-padding-bottom-large">
-      <h4 class="w3-center">Problem Statement</h4>
-      <p class="w3-large"><b>Ideal:</b> An interactive map to display the municipalities within Ontario and links to their official websites.
-        <br><b>Reality:</b> There is currently no web map that provides the links to the websites for the municipalities within all of Ontario.
-        <br><b>Consequences:</b> Currently, a user would need to use a map to find the municipality they are looking for and then use Google to find the official website manually.
-        <br><b>Proposal:</b> An interactive web map which displays all of the municipalities within Ontario, with the ability for users to click on each municipality and see a popup that contains its name and a link to the official website.
-        <br><b>Technology:</b> Geocortex 5, ArcGIS Online
+      <h3 class="w3-center">Problem Statement</h3>
+      <h5>Ideal</h5>
+      <p class="w3-large w3-text-grey">An interactive map to display the municipalities within Ontario and links to their official websites.
+      </p>
+      <h5>Reality</h5>
+      <p class="w3-large w3-text-grey">There is currently no web map that provides the links to the websites for the municipalities within all of Ontario.
+      </p>
+      <h5>Consequences</h5>
+      <p class="w3-large w3-text-grey">Currently, a user would need to use a map to find the municipality they are looking for and then use Google to find the official website manually.
+      </p>
+        <h5>Proposal</h5>
+      <p class="w3-large w3-text-grey">An interactive web map which displays all of the municipalities within Ontario, with the ability for users to click on each municipality and see a popup that contains its name and a link to the official website.
+      </p>
+      <h5>Technology</h5>
+      <p class="w3-large w3-text-grey">Geocortex 5, ArcGIS Online
       </p>
     </div>
   </div>
@@ -87,25 +97,25 @@ h1, h2, h3, h4, h5, h6 {
   <!-- Solution Section -->
   <div class="w3-container w3-padding-64" id="solution">
     <h1>Solution</h1><br>
-    <p class="w3-text-grey">To solve the problem at hand, an interactive map was developed using Geocortex 5 that displays all lower and upper tier 
+    <p class="w3-large w3-text-grey">To solve the problem at hand, an interactive map was developed using Geocortex 5 that displays all lower and upper tier 
       municipalities in Ontario for the public to explore. Users can explore their boundaries and will have access to all their 
       official names and websites just by clicking on the area of interest.</p>
     <a class="w3-text-blue-grey w3-large" href="https://luna.flemingcollege.ca/Geocortex/WebViewer/?app=642cbce9691e4f979ec72ce1550d136e">Upper and Lower Tier Municipalities of Ontario</a>
     <p class="w3-text-grey">Click the link above to view the final product.<i> The link will be inactive beyond April 30, 2021.</i> The image below is what the users will first see when they access the web map.</p>
     <img src="../geom99webgolf/images/Home.jpg" class="w3-image w3-border-black" alt="Menu" style="width:100%">
     <h5>Tabs</h5>
-    <p class="w3-text-grey">The column on the left side of the web page shows three tabs labelled Home, Layers, and Legend. The home tab describes what 
+    <p class="w3-large w3-text-grey">The column on the left side of the web page shows three tabs labelled Home, Layers, and Legend. The home tab describes what 
       users will be able to do with the features to view the municipalities. The layer tab shows the two layers called Lower 
       Boundary and Upper Boundary that can be turned on or off to display them on the map.  The third tab is the legend which shows
        which polygons belong to each layer. The upper boundary municipalities are coloured yellow and the lower boundary 
        municipalities are blue.</p>
     <h5>Search Bar</h5>
-    <p class="w3-text-grey">Users can use the search bar to enter keywords to locate areas of interest and are provided with a 
+    <p class="w3-large w3-text-grey">Users can use the search bar to enter keywords to locate areas of interest and are provided with a 
       list of results relating to the search. When the user clicks on one of these results, they are provided with the option to 
       view the location with the World Geocoder for ArcGIS or with the Lower or Upper Boundary layers if applicable. For the example of 
       Gravenhurst, the selectable layers based on this search are the World Geocoder for ArcGIS and the Lower Boundary layer.</p>
     <h5>Toolbar</h5>
-    <p class="w3-text-grey">The toolbar provides the users with the opportunity to draw points, lines or polygons on the map and 
+    <p class="w3-large w3-text-grey">The toolbar provides the users with the opportunity to draw points, lines or polygons on the map and 
       then clear those markups with the click of a button. There is also a measure tool that allows the user to measure lengths 
       across the map or measure any given area. The fourth option on the toolbar is the identify tool that allows the user to 
       pinpoint a location on the map and results for municipalities in that area appear in a list. The list shows both municipality 
@@ -114,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
       users are able to return to the initial map position and zoom level and also switch the colour theme to dark depending on the 
       user's preference.</p>
       <h5>Widgets</h5>
-      <p class="w3-text-grey">In the bottom right corner of the web page there are two widgets that help users customize the map. 
+      <p class="w3-large w3-text-grey">In the bottom right corner of the web page there are two widgets that help users customize the map. 
         The button on the left allows the user to choose a new basemap from a provided list. The button on the right allows users 
         to create bookmarks of an area and give it a name. With these bookmarks, the users are able to quickly return to that view 
         and continue exploring. In the top left corner of the map under the I want to menu, there is another widget that allows the 
@@ -128,16 +138,15 @@ h1, h2, h3, h4, h5, h6 {
     <h1>The Team</h1><br>
     <p></p>
     <p class="w3-text-blue-grey w3-large"><b>David Purdham</b></p>
-    <p>GIS Applications Specialist with background in Geography and Environmental Sustainability. David has work experience using GIS in the public and private sectors.
+    <p class="w3-text-grey w3-large">GIS Applications Specialist with background in Geography and Environmental Sustainability. David has work experience using GIS in the public and private sectors.
       Experience conducting spatial analyses such as site suitability, least-cost path analysis and MCDA (Multi-criteria Decision
       Analysis) and using ArcGIS applications to collect, manipulate and present data. David can extract and manipulate data through various programming languages and 
       enjoys producing visually appealing maps to illustrate the findings.</p>
     <p class="w3-text-blue-grey w3-large"><b>Erik Oosterbaan</b></p>
     <p></p>
+    <img src="../images/ontario_trees.jpg" class="w3-image" alt="Ontario Trees" width="1100" height="600">
   </div>
-  <div class="w3-half w3-padding-64"></div>
-
-  </div>
+  
 <!-- End page content -->
 </div>
 
