@@ -40,12 +40,12 @@ h1, h2, h3, h4, h5, h6 {
   </div>
   <div class="w3-row w3-padding-bottom-64">
     <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="../images/Ontario_CanadaMap.png" class="w3-image" alt="Ontario Map" width="300" height="254">
+     <img src="../geom99webgolf/images/Ontario_CanadaMap.png" class="w3-image" alt="Ontario Map" width="300" height="254">
      <h1 class="w3-large">Ontario, Canada</h1>
     </div>
 
     <div class="w3-col m6 w3-padding-bottom-large">
-      <h5 class="w3-center">Problem Statement</h5>
+      <h4 class="w3-center">Problem Statement</h4>
       <p class="w3-large"><b>Ideal:</b> An interactive map to display the municipalities within Ontario and links to their official websites.
         <br><b>Reality:</b> There is currently no web map that provides the links to the websites for the municipalities within all of Ontario.
         <br><b>Consequences:</b> Currently, a user would need to use a map to find the municipality they are looking for and then use Google to find the official website manually.
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
     </div>
     
     <div class="w3-col l6 w3-padding-large">
-      <img src="/w3images/tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+      <img src="../geom99webgolf/images/Toronto.jpg" class="w3-image" alt="Menu" style="width:100%">
     </div>
   </div>
 
@@ -87,10 +87,38 @@ h1, h2, h3, h4, h5, h6 {
   <!-- Solution Section -->
   <div class="w3-container w3-padding-64" id="solution">
     <h1>Solution</h1><br>
-    <p>To solve the problem at hand, an interactive map was developed that displays all lower and upper tier municipalities in Ontario for the public to explore. Users can explore their boundaries and will have access to all their official names and websites just by clicking on the area of interest.</p>
+    <p class="w3-text-grey">To solve the problem at hand, an interactive map was developed using Geocortex 5 that displays all lower and upper tier 
+      municipalities in Ontario for the public to explore. Users can explore their boundaries and will have access to all their 
+      official names and websites just by clicking on the area of interest.</p>
     <a class="w3-text-blue-grey w3-large" href="https://luna.flemingcollege.ca/Geocortex/WebViewer/?app=642cbce9691e4f979ec72ce1550d136e">Upper and Lower Tier Municipalities of Ontario</a>
-    <p>Click the link above to view the final product.<i> The link will be inactive beyond April 30, 2021.</i></p>
-
+    <p class="w3-text-grey">Click the link above to view the final product.<i> The link will be inactive beyond April 30, 2021.</i> The image below is what the users will first see when they access the web map.</p>
+    <img src="../geom99webgolf/images/Home.jpg" class="w3-image w3-border-black" alt="Menu" style="width:100%">
+    <h5>Tabs</h5>
+    <p class="w3-text-grey">The column on the left side of the web page shows three tabs labelled Home, Layers, and Legend. The home tab describes what 
+      users will be able to do with the features to view the municipalities. The layer tab shows the two layers called Lower 
+      Boundary and Upper Boundary that can be turned on or off to display them on the map.  The third tab is the legend which shows
+       which polygons belong to each layer. The upper boundary municipalities are coloured yellow and the lower boundary 
+       municipalities are blue.</p>
+    <h5>Search Bar</h5>
+    <p class="w3-text-grey">Users can use the search bar to enter keywords to locate areas of interest and are provided with a 
+      list of results relating to the search. When the user clicks on one of these results, they are provided with the option to 
+      view the location with the World Geocoder for ArcGIS or with the Lower or Upper Boundary layers if applicable. For the example of 
+      Gravenhurst, the selectable layers based on this search are the World Geocoder for ArcGIS and the Lower Boundary layer.</p>
+    <h5>Toolbar</h5>
+    <p class="w3-text-grey">The toolbar provides the users with the opportunity to draw points, lines or polygons on the map and 
+      then clear those markups with the click of a button. There is also a measure tool that allows the user to measure lengths 
+      across the map or measure any given area. The fourth option on the toolbar is the identify tool that allows the user to 
+      pinpoint a location on the map and results for municipalities in that area appear in a list. The list shows both municipality 
+      tier layers and has the options for users to click on a feature of interest and have it attributes appear in the side column. 
+      The last option in the toolbar is the ability to print the map at a scale determined by the user. With the I want to menu, 
+      users are able to return to the initial map position and zoom level and also switch the colour theme to dark depending on the 
+      user's preference.</p>
+      <h5>Widgets</h5>
+      <p class="w3-text-grey">In the bottom right corner of the web page there are two widgets that help users customize the map. 
+        The button on the left allows the user to choose a new basemap from a provided list. The button on the right allows users 
+        to create bookmarks of an area and give it a name. With these bookmarks, the users are able to quickly return to that view 
+        and continue exploring. In the top left corner of the map under the I want to menu, there is another widget that allows the 
+        user to zoom in and out on the map. This can also be accomplished by scrolling with the mouse.</p>
   </div>
   
   <hr>
